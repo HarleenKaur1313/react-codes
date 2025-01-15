@@ -1,0 +1,8 @@
+create an array of books and print them in list form
+<?php 
+    $books= ["book1", "book2", "book3"];
+
+    foreach ($books as $book){
+      echo "<li> $book </li>";
+    }
+    ?>
