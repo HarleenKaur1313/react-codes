@@ -1,4 +1,4 @@
-create an array of books and print them in list form
+😃create an array of books and print them in list form
 <?php 
     $books= ["book1", "book2", "book3"];
 
@@ -6,3 +6,15 @@ create an array of books and print them in list form
       echo "<li> $book </li>";
     }
     ?>
+
+😊whenever we need to build complex html fragments within php -->
+
+    <?php foreach ($books as $book) :?>  <!--instead of {} we can use : and end using endforeach -->
+      <div> 
+        <li> hello</li> 
+      </div>
+    <?php endforeach ?>
+
+✌another syntac for echoing out things (just skip php and echo word particularly and insert = sign)
+        <?= $book ?>
+        <!-- <?php echo $book ?>  -->
